@@ -15,7 +15,6 @@ func PrintNbr(n int) {
 	for n > 0 {
 		a := n % 10
 		arry = append(arry, a)
-
 		n = n / 10
 	}
 	for i := len(arry) - 1; i >= 0; i-- {
