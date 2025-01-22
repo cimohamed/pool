@@ -20,7 +20,7 @@ func QuadA(x, y int) {
 	}
 }
 func main() {
-	QuadA(4, 4)
+	QuadA(3,5)
 }
 // $ go run .
 // o---o
