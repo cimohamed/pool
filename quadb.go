@@ -23,9 +23,6 @@ func QuadB(x, y int) {
 func main() {
 	QuadB(3, 5)
 }
-
-// $ go run .
-// o---o
-// |   |
-// o---o
-// $
+/***\
+*   *
+\***/
