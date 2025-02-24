@@ -16,6 +16,10 @@ func fibonacci(index int )int {
 }
 
 func main() {
+<<<<<<< HEAD
 	arg1 := 0
+=======
+	arg1 := 100
+>>>>>>> 39d85a9 (sortparams)
 	fmt.Println(fibonacci(arg1))
 }
