@@ -26,5 +26,6 @@ func main() {
 	PrintNbr(-123)
 	PrintNbr(0)
 	PrintNbr(123)
+	PrintNbr(2147483648)
 	z01.PrintRune('\n')
 }

@@ -37,7 +37,8 @@ func AtoiBase(s string, base string) int {
 		if index== -1 {
 			return 0
 		}
-		ruse = ruse*baseLen + index 
+		ruse = ruse*baseLen + 
+		
 	}
 	return ruse
 }

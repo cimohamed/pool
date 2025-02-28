@@ -5,6 +5,9 @@ import (
 	"os"
 )
 
+func atoi(s string)(int , bool){
+	for 
+}
 func main() {
-	fmt.Println(os.Args[0])
+	
 }
