@@ -6,12 +6,8 @@ import (
 
 func BasicAtoi(s string) int {
 	var r int
-	tmp := []int{}
-	for i := 0; i < len(s); i++ {
-		tmp = append(tmp, int(s[i]-48))
-	}
-	for j := 0; j < len(tmp); j++ {
-		r = r*10 + tmp[j]
+	for j := 0; j < len(s); j++ {
+		r =r*10 + int(s[j]-48)
 	}
 	return r
 }

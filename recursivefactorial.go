@@ -5,7 +5,7 @@ import (
 )
 
 func RecursiveFactorial(nb int) int {
-	if nb == 1 {
+	if nb == 1 ||{
 		return 1	
 	}
 	if nb > 1 {
@@ -14,9 +14,8 @@ func RecursiveFactorial(nb int) int {
 	}
 	return 0
 }
-
 func main() {
-	arg := 4
+	arg := 0
 	s := RecursiveFactorial(arg)
 	fmt.Println(s)
 }

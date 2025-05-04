@@ -1,7 +1,6 @@
 package main
 
 import (
-
 	"github.com/01-edu/z01"
 )
 
@@ -44,9 +43,9 @@ func PrintNbrBase(neb int, base string) {
 }
 
 func main() {
-	PrintNbrBase(125 , "0123456789")
+	PrintNbrBase(13, "0123456789")
 	z01.PrintRune('\n')
-	PrintNbrBase(-125, "01")
+	PrintNbrBase(13, "01")
 	z01.PrintRune('\n')
 	PrintNbrBase(125, "0123456789ABCDEF")
 	z01.PrintRune('\n')

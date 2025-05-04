@@ -6,19 +6,15 @@ import (
 
 func BasicAtoi2(s string) int {
 	var r int
-	tmp := []int{}
-	for i := 0; i < len(s); i++ {
-		if s[i] == ' ' || s[i] >= 'A' && s[i] <= 'z' {
+	for j := 0; j < len(s); j++ {
+		if s[j] >= '0' && s[j] <= '9'{
+			r = r*10 + int(s[j]-'0')
+		}else{
 			return 0
 		}
-		tmp = append(tmp, int(s[i]-48))
-	}
-	for j := 0; j < len(tmp); j++ {
-		r = r*10 + tmp[j]
 	}
 	return r
 }
-
 func main() {
 	fmt.Println(BasicAtoi2("12345"))
 	fmt.Println(BasicAtoi2("0000000012345"))

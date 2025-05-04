@@ -30,5 +30,4 @@ func main() {
 	fmt.Println(IsPrime(4))
 	fmt.Println(IsPrime(5))
 	fmt.Println(IsPrime(5))
-
 }
